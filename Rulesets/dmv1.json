@@ -1,7 +1,7 @@
 {
 
 "rules": [
-{
+  {
   "uniqueTag": "iCTF_v1",
   "categories": [
       "ISp"
@@ -9,29 +9,42 @@
   "title": "iCTF",
   "tooltip": "ISp iCTF Ruleset",
   "description": "iCTF, Server Password, %MaxPlayers% SLOTS",
-  "mapPrefixes": [],
+  "mapPrefixes": ["CTF"],
   "maxMapsInList": 0,
   "defaultMap": "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
-  "customMapList": [
-       "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-Outside",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-BigRock",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-Dam",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-FaceTest",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-Volcano",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-Lance",
-       "/Game/RestrictedAssets/Maps/WIP/CTF-Min"
-  ],
+  "customMapList": [],
   "maxPlayers": 20,
-  "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_Custom.GB_Custom'",
+  "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_CTF.GB_CTF'",
   "gameMode": "/Script/UnrealTournament.UTCTFGameMode",
-  "gameOptions": "?Botfill=0?TimeLimit=14?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,AddImpactHammer,MutTeamSkins",
+  "gameOptions": "?ForceNoBots=1?TimeLimit=14?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,AddImpactHammer,MutTeamSkins",
   "requiredPackages": [],
   "bTeamGame": true,
   "bCompetitiveMatch": false,
   "optionFlags": 65535,
   "bHideFromUI": false
-  }
+  },
+  {
+  "uniqueTag": "DM_v1",
+  "categories": [
+      "ISp"
+   ],
+  "title": "DeathMatch",
+  "tooltip": "ISp DM Ruleset",
+  "description": "DM, Server Password, %MaxPlayers% SLOTS",
+  "mapPrefixes": ["DM"],
+  "maxMapsInList": 0,
+  "defaultMap": "/Game/RestrictedAssets/Maps/WIP/DM-DeckTest",
+  "customMapList": [],
+  "maxPlayers": 20,
+  "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_TDM.GB_TDM'",
+  "gameMode": "/Script/UnrealTournament.UTTeamShowdownGame",
+  "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=HiddenWeaponsUTPL,MutHitsounds",
+  "requiredPackages": [],
+  "bTeamGame": true,
+  "bCompetitiveMatch": false,
+  "optionFlags": 65535,
+  "bHideFromUI": false
+  },
 
 ]
 
