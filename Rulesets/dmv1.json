@@ -1,0 +1,32 @@
+{
+
+"rules": [
+{
+  "uniqueTag": "TestRulet",
+  "categories": [
+      "Featured"
+   ],
+  "title": "Just a Test Rule",
+  "tooltip": "Oi, go on and get!",
+  "description": "Really tho... Get.\n\n<UT.Hub.RulesText_Small>TimeLimit : %TimeLimit% minutes</>\n<UT.Hub.RulesText_Small>Maximum players : %MaxPlayers%</>",
+  "mapPrefixes": [],
+  "maxMapsInList": 16,
+  "defaultMap": "/Game/RestrictedAssets/Maps/WIP/FR-Fort",
+  "customMapList": [
+       "/Game/RestrictedAssets/Maps/WIP/FR-Fort",
+       "/Game/RestrictedAssets/Maps/WIP/FR-Meltdown"
+  ],
+  "maxPlayers": 8,
+  "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_Custom.GB_Custom'",
+  "gameMode": "/Script/UnrealTournament.UTFlagRunGame",
+  "gameOptions": "?Botfill=10",
+  "requiredPackages": [],
+  "bTeamGame": true,
+  "bCompetitiveMatch": false,
+  "optionFlags": 65535,
+  "bHideFromUI": false
+  }
+
+]
+
+}
