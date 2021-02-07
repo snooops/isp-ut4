@@ -4,23 +4,28 @@
 {
   "uniqueTag": "iCTF_v1",
   "categories": [
-      "Featured"
+      "ISp"
    ],
   "title": "iCTF",
-  "tooltip": "Play this custom rules",
+  "tooltip": "ISp iCTF Ruleset",
   "description": "iCTF, Server Password, %MaxPlayers% SLOTS",
   "mapPrefixes": [],
-  "maxMapsInList": 16,
+  "maxMapsInList": 0,
   "defaultMap": "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
   "customMapList": [
        "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
-       "/Game/RestrictedAssets/Maps/WIP/FR-Fort",
-       "/Game/RestrictedAssets/Maps/WIP/FR-Meltdown"
+       "/Game/RestrictedAssets/Maps/WIP/CTF-Outside",
+       "/Game/RestrictedAssets/Maps/WIP/CTF-BigRock",
+       "/Game/RestrictedAssets/Maps/WIP/CTF-Dam",
+       "/Game/RestrictedAssets/Maps/WIP/CTF-FaceTest",
+       "/Game/RestrictedAssets/Maps/WIP/CTF-Volcano",
+       "/Game/RestrictedAssets/Maps/WIP/CTF-Lance",
+       "/Game/RestrictedAssets/Maps/WIP/CTF-Min"
   ],
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_Custom.GB_Custom'",
   "gameMode": "/Script/UnrealTournament.UTCTFGameMode",
-  "gameOptions": "?TimeLimit=14?GoalScore=0?RequirePassword=1?ServerPassword=isp?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,AddImpactHammer,MutTeamSkins",
+  "gameOptions": "?Botfill=0?TimeLimit=14?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,AddImpactHammer,MutTeamSkins",
   "requiredPackages": [],
   "bTeamGame": true,
   "bCompetitiveMatch": false,
