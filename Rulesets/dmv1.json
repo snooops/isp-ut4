@@ -2,24 +2,24 @@
 
 "rules": [
 {
-  "uniqueTag": "TestRulet",
+  "uniqueTag": "iCTF_v1",
   "categories": [
       "Featured"
    ],
-  "title": "Just a Test Rule",
-  "tooltip": "Oi, go on and get!",
-  "description": "Really tho... Get.\n\n<UT.Hub.RulesText_Small>TimeLimit : %TimeLimit% minutes</>\n<UT.Hub.RulesText_Small>Maximum players : %MaxPlayers%</>",
-  "mapPrefixes": [],
+  "title": "iCTF",
+  "tooltip": "Play this custom rules",
+  "description": "iCTF, Server Password, %MaxPlayers% SLOTS",
+  "mapPrefixes": [CTF],
   "maxMapsInList": 16,
-  "defaultMap": "/Game/RestrictedAssets/Maps/WIP/FR-Fort",
+  "defaultMap": "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
   "customMapList": [
        "/Game/RestrictedAssets/Maps/WIP/FR-Fort",
        "/Game/RestrictedAssets/Maps/WIP/FR-Meltdown"
   ],
-  "maxPlayers": 8,
+  "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_Custom.GB_Custom'",
-  "gameMode": "/Script/UnrealTournament.UTFlagRunGame",
-  "gameOptions": "?Botfill=10",
+  "gameMode": "/Script/UnrealTournament.UTCTFGameMode",
+  "gameOptions": "?TimeLimit=14?GoalScore=0?RequirePassword=1?ServerPassword=isp?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,AddImpactHammer,MutTeamSkins",
   "requiredPackages": [],
   "bTeamGame": true,
   "bCompetitiveMatch": false,
