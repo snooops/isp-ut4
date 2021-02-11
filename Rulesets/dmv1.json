@@ -9,7 +9,7 @@
   "title": "iCTF",
   "tooltip": "ISp iCTF Ruleset",
   "description": "iCTF, Server Password, %MaxPlayers% SLOTS",
-  "mapPrefixes": ["CTF", "ICTF"],
+  "mapPrefixes": ["CTF"],
   "maxMapsInList": 0,
   "defaultMap": "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
   "customMapList": [],
