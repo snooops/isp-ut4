@@ -8,11 +8,14 @@
    ],
   "title": "iCTF",
   "tooltip": "ISp iCTF Ruleset",
-  "description": "iCTF, Server mit Passwort, %MaxPlayers% SLOTS\nHiddenWeapons über TEXTCHAT mit: mutate hidegun | mutate showgun einstellen",
+  "description": "iCTF, Server mit Passwort, %MaxPlayers% SLOTS, TimeLimit : %timelimit%\nHiddenWeapons über TEXTCHAT mit: mutate hidegun | mutate showgun einstellen",
   "mapPrefixes": [],
   "maxMapsInList": 0,
   "defaultMap": "/Game/RestrictedAssets/Maps/CTF-Face",
-  "customMapList": ["/Game/RestrictedAssets/Maps/CTF-Face"],
+  "customMapList": [
+          "/Game/RestrictedAssets/Maps/CTF-Face",
+          
+  ],
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_InstagibCTF.GB_InstagibCTF'",
   "gameMode": "/Script/UnrealTournament.UTCTFGameMode",
@@ -21,7 +24,8 @@
   "bTeamGame": true,
   "bCompetitiveMatch": false,
   "optionFlags": 65535,
-  "bHideFromUI": false
+  "bHideFromUI": false,
+  "epicForceUIVisibility": 0
   },
   {
   "uniqueTag": "DM_v1",
@@ -43,7 +47,8 @@
   "bTeamGame": true,
   "bCompetitiveMatch": false,
   "optionFlags": 65535,
-  "bHideFromUI": false
+  "bHideFromUI": false,
+  "epicForceUIVisibility": 0
   },
 
 ]
