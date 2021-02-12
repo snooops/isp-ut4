@@ -30,7 +30,7 @@
    ],
   "title": "DeathMatch",
   "tooltip": "ISp DM Ruleset",
-  "description": "DM, Server Password, %MaxPlayers% SLOTS",
+  "description": "DM, Server Password, %MaxPlayers% SLOTS TEST DER LÄNGE DES TEXTES BLA BLA BLA BLA BLA",
   "mapPrefixes": ["DM"],
   "maxMapsInList": 0,
   "defaultMap": "/Game/RestrictedAssets/Maps/WIP/DM-DeckTest",
