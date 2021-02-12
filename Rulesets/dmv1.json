@@ -8,7 +8,7 @@
    ],
   "title": "iCTF",
   "tooltip": "ISp iCTF Ruleset",
-  "description": "iCTF, Server mit Passwort, %MaxPlayers% SLOTS \n\n HiddenWeapons über TEXTCHAT: mutate hidegun | mutate showgun einstellen",
+  "description": "iCTF, Server mit Passwort, %MaxPlayers% SLOTS\nHiddenWeapons über TEXTCHAT: mutate hidegun | mutate showgun einstellen",
   "mapPrefixes": ["CTF"],
   "maxMapsInList": 0,
   "defaultMap": "/Game/RestrictedAssets/Maps/WIP/CTF-Blank",
