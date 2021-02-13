@@ -15,12 +15,35 @@
   "defaultMap": "/Game/RestrictedAssets/Maps/CTF-Face",
   "customMapList": [
           "/Game/RestrictedAssets/Maps/CTF-Face",
-          
   ],
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_InstagibCTF.GB_InstagibCTF'",
   "gameMode": "/Script/UnrealTournament.UTCTFGameMode",
-  "gameOptions": "?ForceNoBots=1?TimeLimit=15?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins",
+  "gameOptions": "?ForceNoBots=1?TimeLimit=15?GoalScore=0?ForceRespawn=1?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins",
+  "requiredPackages": [],
+  "bTeamGame": true,
+  "bCompetitiveMatch": false,
+  "optionFlags": 65535,
+  "bHideFromUI": false,
+  "epicForceUIVisibility": 0
+  },
+  
+      {
+  "uniqueTag": "iDM_v1",
+  "categories": [
+      "ISp"
+   ],
+  "title": "iDM FFA",
+  "tooltip": "ISp iDM Ruleset",
+  "description": "iDM FFA, Server Password, %MaxPlayers% SLOTS",
+  "mapPrefixes": [],
+  "maxMapsInList": 0,
+  "defaultMap": "/Game/RestrictedAssets/Maps/DM-Outpost23",
+  "customMapList": ["/Game/RestrictedAssets/Maps/DM-Outpost23"],
+  "maxPlayers": 20,
+  "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_TDM.GB_TDM'",
+  "gameMode": "/Script/UnrealTournament.UTTeamShowdownGame",
+  "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?ForceRespawn=1?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins",
   "requiredPackages": [],
   "bTeamGame": true,
   "bCompetitiveMatch": false,
@@ -44,31 +67,7 @@
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_TDM.GB_TDM'",
   "gameMode": "/Script/UnrealTournament.UTTeamShowdownGame",
-  "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins",
-  "requiredPackages": [],
-  "bTeamGame": true,
-  "bCompetitiveMatch": false,
-  "optionFlags": 65535,
-  "bHideFromUI": false,
-  "epicForceUIVisibility": 0
-  },
-  
-    {
-  "uniqueTag": "iDM_v1",
-  "categories": [
-      "ISp"
-   ],
-  "title": "iDM FFA",
-  "tooltip": "ISp iDM Ruleset",
-  "description": "iDM FFA, Server Password, %MaxPlayers% SLOTS",
-  "mapPrefixes": [],
-  "maxMapsInList": 0,
-  "defaultMap": "/Game/RestrictedAssets/Maps/DM-Outpost23",
-  "customMapList": ["/Game/RestrictedAssets/Maps/DM-Outpost23"],
-  "maxPlayers": 20,
-  "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_TDM.GB_TDM'",
-  "gameMode": "/Script/UnrealTournament.UTTeamShowdownGame",
-  "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins",
+  "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?ForceRespawn=1?RequirePassword=1?ServerPassword=seife?Mutator=HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins,AddImpactHammer",
   "requiredPackages": [],
   "bTeamGame": true,
   "bCompetitiveMatch": false,
