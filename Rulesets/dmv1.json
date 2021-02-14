@@ -31,7 +31,8 @@
           "/Game/UT4Maps/CTF-CheckMate/Dev/CTF-CheckMate-Beta9",
           "/Game/RestrictedAssets/Maps/WIP/CTF-Switchback-PRO",
           "/Game/Maps/Donzi/CTF-Bloxeh",
-          "/Game/RestrictedAssets/Maps/WIP/CTF-Rankin-PRO-UT2004/CTF-Rankin-PRO"
+          "/Game/RestrictedAssets/Maps/WIP/CTF-Rankin-PRO-UT2004/CTF-Rankin-PRO",
+          "/Game/EpicInternal/Pistola/CTF-Pistola"
   ],
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_InstagibCTF.GB_InstagibCTF'",
