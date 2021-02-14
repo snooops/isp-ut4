@@ -45,7 +45,7 @@
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_InstagibCTF.GB_InstagibCTF'",
   "gameMode": "/Script/UnrealTournament.UTCTFGameMode",
-  "gameOptions": "MaxReadyWait=0?ForceNoBots=1?TimeLimit=15?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins,SetNetSpeed",
+  "gameOptions": "?MaxReadyWait=0?ForceNoBots=1?TimeLimit=15?GoalScore=0?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins,SetNetSpeed",
   "requiredPackages": [],
   "bTeamGame": true,
   "bCompetitiveMatch": false,
