@@ -54,7 +54,7 @@
   "epicForceUIVisibility": 0
   },
   
-      {
+  {
   "uniqueTag": "iDM_v1",
   "categories": [
       "ISp"
@@ -68,7 +68,7 @@
   "customMapList": ["/Game/RestrictedAssets/Maps/DM-Outpost23"],
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_InstagibDM.GB_InstagibDM'",
-  "gameMode": "/Script/UnrealTournament.UTTeamShowdownGame",
+  "gameMode": "/Script/UnrealTournament.UTDMGameMode",
   "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?ForceRespawn=1?RequirePassword=1?ServerPassword=seife?Mutator=Instagib,HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins",
   "requiredPackages": [],
   "bTeamGame": true,
@@ -92,7 +92,7 @@
   "customMapList": ["/Game/RestrictedAssets/Maps/DM-Outpost23"],
   "maxPlayers": 20,
   "displayTexture": "Texture2D'/Game/RestrictedAssets/UI/GameModeBadges/GB_DM.GB_DM'",
-  "gameMode": "/Script/UnrealTournament.UTTeamShowdownGame",
+  "gameMode": "/Script/UnrealTournament.UTDMGameMode",
   "gameOptions": "?ForceNoBots=1?TimeLimit=10?GoalScore=0?ForceRespawn=1?RequirePassword=1?ServerPassword=seife?Mutator=HiddenWeaponsUTPL,MutHitsounds,MutTeamSkins,AddImpactHammer",
   "requiredPackages": [],
   "bTeamGame": true,
